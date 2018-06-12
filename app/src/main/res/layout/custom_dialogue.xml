@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6ce9ece3"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/pFault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+
+                android:text="@string/app_name"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/pOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+
+                android:text="@string/app_name"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/pOwnerPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+
+                android:text="@string/app_name"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pOwnerLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:text="@string/app_name"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/call"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/call" />
+
+                <ImageView
+                    android:id="@+id/msg"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="110dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/message" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>
